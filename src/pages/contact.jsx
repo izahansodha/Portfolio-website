@@ -2,7 +2,7 @@ function Contact() {
   return (
     <>
       <div className="w-full h-full flex flex-col items-center justify-center bg-[#0c969c] p-5">
-        <div className="w-80 sm:w-100 flex flex-col items-center justify-center bg-[#032f30] p-10 rounded-lg shadow-lg">
+        <div className="w-70 sm:w-100 flex flex-col items-center justify-center bg-[#032f30] p-10 rounded-lg shadow-lg">
           <h1 className="text-4xl font-bold mb-4 text-white w-full">Contact Page</h1>
           <form action="" className="w-full">
             <label className="text-white font-bold">Name:</label>
