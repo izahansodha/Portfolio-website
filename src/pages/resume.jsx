@@ -10,9 +10,8 @@ function Resume() {
           </p>
 
           <div className="text-sm text-gray-300 mt-3 space-y-1">
-            <p>Email: your@email.com</p>
-            <p>GitHub: github.com/yourusername</p>
-            <p>Portfolio: your-portfolio-link</p>
+            <p>Email: Izahansodha5316@gmail.com</p>
+            <p>GitHub: https://github.com/izahansodha</p>
             <p>Available for Remote Work</p>
           </div>
         </div>
@@ -86,10 +85,10 @@ function Resume() {
         <div className="mb-6">
           <h2 className="text-xl font-semibold mb-2">Education</h2>
           <p className="text-gray-200">
-            Diploma / Degree in Computer / IT  
+            Diploma In Computer Engineering
             <br />
-            <span className="text-sm text-gray-400">
-              (Your college name)
+            <span className="teSxt-sm text-gray-400">
+             Goverment Polytechnic Junagadh
             </span>
           </p>
         </div>
