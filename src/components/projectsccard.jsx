@@ -1,4 +1,4 @@
-function Projectsccard({ title, description, tech, live, github }) {
+function Projectsccard({ title, description, tech, live, github ,status}) {
   return (
     <div className="bg-[#032f30] text-white rounded-2xl p-6 sm:w-[400px] w-full shadow-lg hover:shadow-2xl transition">
       
@@ -25,7 +25,7 @@ function Projectsccard({ title, description, tech, live, github }) {
       </div>
       <div className="flex mb-4">
         <span  className="text-xs bg-white/10 px-3 py-1 rounded-full">
-        Status : Inprogress
+        Status : {status}
         </span>
       </div>
 
