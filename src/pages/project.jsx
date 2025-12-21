@@ -22,7 +22,7 @@ function Projects() {
         }
         description={"Responsive Portfolio Web"}
         tech={["React", "Tailwind"]}
-        live={"https://portfolio-izahans-projects.vercel.app/"}
+        live={"https://portfolio-web-red-iota.vercel.app/"}
         github={"https://github.com/izahansodha/Portfolio-website.git"}
         status={"Completed"}
         />
@@ -34,7 +34,7 @@ function Projects() {
         }
         description={"E-commerce Full Fronted"}
         tech={["React", "Tailwind"]}
-        live={"Inprogress"}
+        live={"/"}
         github={"/"}
         status={"Inprogress"}
         />
