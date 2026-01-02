@@ -2,7 +2,7 @@ import Projectsccard from "../components/projectsccard";
 function Projects() {
   return (
     <div className="w-full bg-[#0c969c] flex flex-col items-center rounded-2xl">
-      <div className="w-full flex gap-5 m-5 sm:flex-row flex-col p-5">
+      <div className="w-full flex gap-5 m-5 sm:flex-row flex-col p-5 justify-center flex-wrap">
         <div>
         <Projectsccard 
         title={
@@ -34,7 +34,7 @@ function Projects() {
         }
         description={"E-commerce Full Fronted"}
         tech={["React", "Tailwind"]}
-        live={"/"}
+        live={"https://e-commerce-web-five-ochre.vercel.app/"}
         github={"/"}
         status={"Inprogress"}
         />
@@ -43,4 +43,5 @@ function Projects() {
     </div>
   );
 } 
+
 export default Projects;
