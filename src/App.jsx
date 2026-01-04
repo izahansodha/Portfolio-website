@@ -11,7 +11,7 @@ import Contact from "./pages/contact.jsx";
 function App() {
   return (
       <div className="w-full bg-gray-900 flex flex-col items-center">
-        <div className="flex flex-col justify-center bg-gray-900">
+        <div className="w-full flex flex-col justify-center bg-gray-900">
           <Navbar />
           <Main/>
           <About/>
