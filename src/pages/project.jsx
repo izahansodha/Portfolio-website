@@ -1,7 +1,7 @@
 import Projectsccard from "../components/projectsccard";
 function Projects() {
   return (
-    <div className="w-full bg-[#0c969c] flex flex-col items-center rounded-2xl">
+    <div id="Projects" className="w-full flex flex-col items-center rounded-2xl p-20">
       <div className="w-full flex gap-5 m-5 sm:flex-row flex-col p-5 justify-center flex-wrap">
         <div>
         <Projectsccard 

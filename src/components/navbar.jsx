@@ -3,34 +3,29 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   const navClass = ({ isActive }) =>
     `m-1 cursor-pointer transition font-medium rounded-full px-6 py-2 ${
-      isActive
-        ? "text-black bg-white"
-        : "text-white hover:text-gray-200"
+      isActive ? "text-black bg-white" : "text-white hover:text-gray-200"
     }`;
 
   return (
-    <nav className="w-full max-w-[900px] bg-[#032f30] rounded-2xl sm:rounded-full py-2 px-4">
-      <div className="flex flex-wrap justify-center gap-2 items-center">
-        <NavLink to="/" className={navClass}>
-          Home
-        </NavLink>
-
-        <NavLink to="/about" className={navClass}>
-          About
-        </NavLink>
-
-        <NavLink to="/resume" className={navClass}>
-          Resume
-        </NavLink>
-
-        <NavLink to="/projects" className={navClass}>
-          Projects
-        </NavLink>
-
-        <NavLink to="/contact" className={navClass}>
-          Contact
-        </NavLink>
-
+    <nav
+      className="fixed top-5 left-1/2 -translate-x-1/2 flex justify-center items-center w-[50%] px-8 py-4 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl text-white" >
+      <div className="w-full flex flex-wrap justify-between gap-2">
+        <div className={navClass}>
+          <a href="#Home">Home</a>
+        </div>
+        <div className={navClass}>
+          <a href="#About">About</a>
+        </div>
+        <div className={navClass}>
+          <a href="#Resume">Resume</a>
+        </div>
+        <div className={navClass}>
+          <a href="#Projects">Project</a>
+        </div>
+        <div className={navClass}>
+          <a href="#Contact">Contact</a>
+        </div>
+       
       </div>
     </nav>
   );

@@ -1,7 +1,7 @@
 function Projectsccard({ title, description, tech, live, github ,status}) {
   return (
-    <div className="bg-[#032f30] text-white rounded-2xl p-6 sm:w-[400px] shadow-lg hover:shadow-2xl transition">
-      
+    <div className="text-white p-6 sm:w-[400px] hover:shadow-2xl border bg-white/3 border-white/20 shadow-xl rounded-2xl transition-all hover:scale-105">
+
       {/* Project Title */}
       <h3 className="text-xl font-semibold mb-2">
         {title}

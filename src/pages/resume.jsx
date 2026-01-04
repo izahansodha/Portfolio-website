@@ -1,7 +1,7 @@
 function Resume() {
   return (
-    <section className="w-full bg-[#0c969c] flex justify-center py-10 px-4">
-      <div className="max-w-4xl w-full bg-[#032f30] text-white rounded-2xl p-8">  
+    <section id="Resume" className="w-full pt-4 flex justify-center py-10 px-4">
+      <div className="max-w-4xl w-full border border-white/10 text-white rounded-2xl p-8">  
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold">Izahan</h1>

@@ -10,17 +10,15 @@ import Contact from "./pages/contact.jsx";
 
 function App() {
   return (
-      <div className="w-full h-screen bg-[#0c969c] flex flex-col items-center">
-        <div className="p-5 flex justify-center">
+      <div className="w-full bg-gray-900 flex flex-col items-center">
+        <div className="flex flex-col justify-center bg-gray-900">
           <Navbar />
-        </div>
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+          <Main/>
+          <About/>
+          <Resume/>
+          <Projects/>
+          <Contact/>
+          </div>
       </div>
   );
 }
