@@ -4,6 +4,7 @@ function Projects() {
     <div id="Projects" className="w-full flex flex-col items-center rounded-2xl p-20">
       <div className="w-full flex gap-5 m-5 sm:flex-row flex-col p-5 justify-center flex-wrap">
         <div>
+
         <Projectsccard 
         title={
           'Admin dashboard'
@@ -16,6 +17,8 @@ function Projects() {
         />
         </div>
         <div>
+
+
         <Projectsccard
         title={
           'Portfolio Web'
@@ -28,6 +31,8 @@ function Projects() {
         />
         </div>
         <div>
+
+
         <Projectsccard
         title={
           'E-commerce Frontend'
@@ -36,8 +41,21 @@ function Projects() {
         tech={["React", "Tailwind"]}
         live={"https://e-commerce-web-five-ochre.vercel.app/"}
         github={"/"}
-        status={"Inprogress"}
+        status={"Completed"}
         />
+
+        <Projectsccard
+        title={
+          'Agency Landing Page'
+        }
+        description={"Responsive Agency Website"}
+        tech={["React", "Tailwind",'html','css','javascript']}
+        live={"https://agency-web-page-dbz6hu6y5-izahans-projects.vercel.app/"}
+        github={"https://github.com/izahansodha/Agency-web-page.git"}
+        status={"Completed"}
+        />
+
+
         </div>
       </div>
     </div>
