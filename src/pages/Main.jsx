@@ -11,7 +11,7 @@ function Main() {
             I Am Izahan
           </h1>
           <h1 className="text-2xl md:text-3xl font-semibold text-white">
-            Full Stxack Developer
+            Full Stack Developer
           </h1>
         </div>
        

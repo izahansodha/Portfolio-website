@@ -7,6 +7,7 @@ import About from "./pages/about.jsx";
 import Resume from "./pages/resume.jsx";
 import Projects from "./pages/project.jsx";
 import Contact from "./pages/contact.jsx";
+import Skills from "./pages/Skills.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Navbar />
           <Main/>
           <About/>
+          <Skills/>
           <Resume/>
           <Projects/>
           <Contact/>
