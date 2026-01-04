@@ -3,10 +3,10 @@ function Projects() {
   return (
     <div
       id="Projects"
-      className="w-full flex flex-col items-center rounded-2xl p-20"
+      className="w-full flex flex-col rounded-2xl"
     >
-      <div className="w-full flex gap-5 m-5 sm:flex-row flex-col p-5 justify-center flex-wrap">
-        <div>
+      <div className="w-full flex gap-5  sm:flex-row flex-col p-5 justify-center flex-wrap">
+        <div className="flex items-center justify-center">
           <Projectsccard
             title={"Admin dashboard"}
             description={"help you mange your work"}
@@ -17,7 +17,7 @@ function Projects() {
           />
         </div>
 
-        <div>
+        <div className="flex items-center justify-center">
           <Projectsccard
             title={"Portfolio Web"}
             description={"Responsive Portfolio Web"}
@@ -27,7 +27,7 @@ function Projects() {
             status={"Completed"}
           />
         </div>
-        <div>
+        <div className="flex items-center justify-center">
           <Projectsccard
             title={"E-commerce Frontend"}
             description={"E-commerce Full Fronted"}
@@ -38,13 +38,13 @@ function Projects() {
           />
         </div>
 
-        <div>
+        <div className="flex items-center justify-center">
           <Projectsccard
             title={"Agency Landing Page"}
             description={"Responsive Agency Website"}
             tech={["React", "Tailwind", "html", "css", "javascript"]}
             live={
-              "https://agency-web-page-dbz6hu6y5-izahans-projects.vercel.app/"
+              "https://agency-web-page-livid.vercel.app/"
             }
             github={"https://github.com/izahansodha/Agency-web-page.git"}
             status={"Completed"}
