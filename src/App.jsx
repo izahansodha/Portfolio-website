@@ -686,20 +686,12 @@ const previousProject = () => {
             </div>
 
             <div className="contact-links">
-              <a href="https://github.com" target="_blank" rel="noreferrer">
+              <a href="https://github.com/izahansodha" target="_blank" rel="noreferrer">
                 GitHub
               </a>
 
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+              <a href="https://linkedin.com/in/izahan-sodha" target="_blank" rel="noreferrer">
                 LinkedIn
-              </a>
-
-              <a href="#" target="_blank" rel="noreferrer">
-                Fiverr
-              </a>
-
-              <a href="#" target="_blank" rel="noreferrer">
-                Upwork
               </a>
             </div>
           </div>
