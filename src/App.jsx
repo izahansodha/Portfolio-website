@@ -514,10 +514,7 @@ const previousProject = () => {
               </div>
 
               <div className="slide-actions">
-                <button className="view-project">
-                  View Case Study
-                  <span>↗</span>
-                </button>
+                
               </div>
 
             </div>
