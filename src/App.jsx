@@ -677,7 +677,7 @@ const previousProject = () => {
               </p>
 
               <a
-                href="mailto:your@email.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=izahansodha5316@gmail.com&su=Project%20Inquiry"
                 className="button button-primary contact-button"
               >
                 Start a Conversation
